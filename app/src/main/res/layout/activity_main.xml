@@ -59,7 +59,7 @@
             android:text="Glue" />
 
         <Button
-            android:id="@+id/btnCalc"
+            android:id="@+id/btnAddOptions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Estimate Cost" />
