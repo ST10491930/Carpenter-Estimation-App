@@ -20,8 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/tvDisplay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to he Carpenter App" />
+
         <EditText
-            android:id="@+id/etNum1"
+            android:id="@+id/etInput"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:ems="10"
@@ -59,8 +65,9 @@
             android:text="Estimate Cost" />
 
         <RadioGroup
+            android:id="@+id/rbGroup"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <RadioButton
                 android:id="@+id/rbNum1"
@@ -87,7 +94,7 @@
                 android:text="Flooring" />
 
             <TextView
-                android:id="@+id/tvDisplay"
+                android:id="@+id/tvDisplay1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Final Cost =" />
